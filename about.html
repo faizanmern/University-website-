@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linked Css File -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>University website design</title>
+</head>
+
+<body>
+    <!-- Header -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./Assets/logo1.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- about section -->
+
+
+    <!---------- About us content  ----------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's laegest company</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque autem debitis magni, officiis odio
+                    tempore ipsam quos sunt laborum soluta optio reprehenderit dolore beatae, illum commodi recusandae,
+                    cum sit! Quas?</p>
+                <a href="" class="btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="/Assets/about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <!---------- Footer  Section  --------->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque obcaecati deleniti non totam!
+            Tempore
+            debitis tenetur provident <br> asperiores, non totam similique, earum voluptatem minima delectus omnis.
+            Repudiandae, velit enim!</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook-f"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+            <i class="fa fa-brands fa-github"></i>
+        </div>
+
+        <p>Made By <i class="fa fa-regular fa-heart"></i> Muhammad Faizan</p>
+        <p>Made With <i class="fa fa-brands fa-github"></i>GithubFaizan668</p>
+    </section>
+
+
+
+
+
+    <script>
+        // javascript for toggle menu
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
