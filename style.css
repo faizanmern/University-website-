@@ -323,3 +323,61 @@ h3 {
     font-size: 15px;
   }
 }
+
+/* Call to action secction */
+
+.cta {
+  width: 80%;
+  margin: 100px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/Assets/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .cta h1 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+/* <!---------- Footer  Section  ---------> */
+
+.footer {
+  width: 100%;
+  /* margin: auto; */
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.icons .fa {
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.fa-heart {
+  color: #f44336;
+}
+
+.fa-github {
+  color: rgb(13, 1, 66);
+}
